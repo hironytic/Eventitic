@@ -1,0 +1,6 @@
+framework module Eventitic {
+  umbrella header "Eventitic-umbrella.h"
+
+  export *
+  module * { export * }
+}
