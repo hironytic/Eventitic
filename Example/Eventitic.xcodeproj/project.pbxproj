@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* EventiticSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* EventiticSpec.swift */; };
 		C5C4BC53577CA572AEF53B73 /* Pods_Eventitic_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85B38AD0B6F603656AB5953 /* Pods_Eventitic_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -15,7 +15,7 @@
 		3B21CAD0908C1C6DEEAB5C9C /* Pods-Eventitic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventitic_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eventitic_Tests/Pods-Eventitic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Eventitic_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eventitic_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* EventiticSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventiticSpec.swift; sourceTree = "<group>"; };
 		60987931E90E4FCB0554EEC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7118D3F45F44F32D59D611FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CA57D19D036AEACAB4F55D31 /* Eventitic.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Eventitic.podspec; path = ../Eventitic.podspec; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* EventiticSpec.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -218,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* EventiticSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
