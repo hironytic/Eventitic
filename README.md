@@ -1,6 +1,6 @@
 # Eventitic
 
-[![CI Status](http://img.shields.io/travis/Hironori Ichimiya/Eventitic.svg?style=flat)](https://travis-ci.org/Hironori Ichimiya/Eventitic)
+<!-- [![CI Status](http://img.shields.io/travis/Hironori Ichimiya/Eventitic.svg?style=flat)](https://travis-ci.org/Hironori Ichimiya/Eventitic)
 [![Version](https://img.shields.io/cocoapods/v/Eventitic.svg?style=flat)](http://cocoapods.org/pods/Eventitic)
 [![License](https://img.shields.io/cocoapods/l/Eventitic.svg?style=flat)](http://cocoapods.org/pods/Eventitic)
 [![Platform](https://img.shields.io/cocoapods/p/Eventitic.svg?style=flat)](http://cocoapods.org/pods/Eventitic)
@@ -26,4 +26,4 @@ Hironori Ichimiya, hiron@hironytic.com
 
 ## License
 
-Eventitic is available under the MIT license. See the LICENSE file for more info.
+Eventitic is available under the MIT license. See the LICENSE file for more info. -->
