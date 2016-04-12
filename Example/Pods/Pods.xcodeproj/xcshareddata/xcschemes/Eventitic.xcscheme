@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A547789120D2F35627C918F0'
+               BlueprintIdentifier = '9AC3492415E3FC68152AA11F'
                BlueprintName = 'Eventitic'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Eventitic.framework'>
