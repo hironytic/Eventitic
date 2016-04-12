@@ -1,0 +1,6 @@
+framework module Pods_EventiticTests {
+  umbrella header "Pods-EventiticTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

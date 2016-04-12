@@ -1,20 +1,14 @@
 PODS:
   - Eventitic (0.1.0)
-  - Nimble (4.0.0)
-  - Quick (0.9.2)
 
 DEPENDENCIES:
   - Eventitic (from `../`)
-  - Nimble (= 4.0.0)
-  - Quick (~> 0.9.2)
 
 EXTERNAL SOURCES:
   Eventitic:
     :path: ../
 
 SPEC CHECKSUMS:
-  Eventitic: f49e41abbc5a17a4962830a4d1b3d5022cc9cdbd
-  Nimble: 72bcc3e2f02242e6bfaaf8d9412ca7bfe3d8b417
-  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+  Eventitic: 1e47cb025c657e51def211658fbde5ebc231ff4d
 
 COCOAPODS: 0.39.0

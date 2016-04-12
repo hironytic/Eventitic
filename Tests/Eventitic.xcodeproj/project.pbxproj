@@ -10,85 +10,20 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>024A83FF3BC7EF76614A0697</key>
+		<key>1470210EB7C052FB17AF3F6F</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
+			<key>children</key>
+			<array>
+				<string>A7F1DA68B994C91567189732</string>
+			</array>
 			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>1F259C16E9E3F9D462F41B06</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C9E8B3316B3ACFCC68AE1638</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>24C60D34A45C5534184113C6</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_Eventitic_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>31CD94942E33824F1A180EFC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>README.md</string>
-			<key>path</key>
-			<string>../README.md</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3C3B782EC5EA22F47BD335F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Eventitic_Tests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Eventitic_Tests/Pods-Eventitic_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A768A32C948FB7ACD91D57A</key>
+		<key>2D2B7DF560D3A2969EA0CBA6</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -107,70 +42,67 @@ fi
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Eventitic_Example/Pods-Eventitic_Example-frameworks.sh"
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests-frameworks.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>5AFA7233889AA919A95068CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Eventitic_Example.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Eventitic_Example/Pods-Eventitic_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>607FACC71AFB9204008FA782</key>
+		<key>3F2B197EE36E927AD224EBEE</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>607FACF51AFB993E008FA782</string>
-				<string>607FACD21AFB9204008FA782</string>
-				<string>607FACE81AFB9204008FA782</string>
-				<string>607FACD11AFB9204008FA782</string>
-				<string>62DC428B60ACBC435B30C2C1</string>
-				<string>AFB81F7D9A6B7C4B1BDDAC7A</string>
+				<string>D514CCA63679BEB9A6B8423E</string>
+				<string>BAADF43DFFE2A75D92E1EEF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>508442FC1CBD3E7D00F0FF99</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>508443071CBD3E7D00F0FF99</string>
+				<string>508443281CBD3EB600F0FF99</string>
+				<string>5084431C1CBD3E7D00F0FF99</string>
+				<string>508443061CBD3E7D00F0FF99</string>
+				<string>3F2B197EE36E927AD224EBEE</string>
+				<string>1470210EB7C052FB17AF3F6F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACC81AFB9204008FA782</key>
+		<key>508442FD1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>attributes</key>
 			<dict>
 				<key>LastSwiftUpdateCheck</key>
-				<string>0720</string>
+				<string>0730</string>
 				<key>LastUpgradeCheck</key>
-				<string>0720</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>CocoaPods</string>
+				<string>0730</string>
 				<key>TargetAttributes</key>
 				<dict>
-					<key>607FACCF1AFB9204008FA782</key>
+					<key>508443041CBD3E7D00F0FF99</key>
 					<dict>
 						<key>CreatedOnToolsVersion</key>
-						<string>6.3.1</string>
+						<string>7.3</string>
 					</dict>
-					<key>607FACE41AFB9204008FA782</key>
+					<key>508443181CBD3E7D00F0FF99</key>
 					<dict>
 						<key>CreatedOnToolsVersion</key>
-						<string>6.3.1</string>
+						<string>7.3</string>
 						<key>TestTargetID</key>
-						<string>607FACCF1AFB9204008FA782</string>
+						<string>508443041CBD3E7D00F0FF99</string>
 					</dict>
 				</dict>
 			</dict>
 			<key>buildConfigurationList</key>
-			<string>607FACCB1AFB9204008FA782</string>
+			<string>508443001CBD3E7D00F0FF99</string>
 			<key>compatibilityVersion</key>
 			<string>Xcode 3.2</string>
 			<key>developmentRegion</key>
@@ -185,9 +117,9 @@ fi
 				<string>Base</string>
 			</array>
 			<key>mainGroup</key>
-			<string>607FACC71AFB9204008FA782</string>
+			<string>508442FC1CBD3E7D00F0FF99</string>
 			<key>productRefGroup</key>
-			<string>607FACD11AFB9204008FA782</string>
+			<string>508443061CBD3E7D00F0FF99</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -196,16 +128,16 @@ fi
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>607FACCF1AFB9204008FA782</string>
-				<string>607FACE41AFB9204008FA782</string>
+				<string>508443041CBD3E7D00F0FF99</string>
+				<string>508443181CBD3E7D00F0FF99</string>
 			</array>
 		</dict>
-		<key>607FACCB1AFB9204008FA782</key>
+		<key>508443001CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>607FACED1AFB9204008FA782</string>
-				<string>607FACEE1AFB9204008FA782</string>
+				<string>508443201CBD3E7D00F0FF99</string>
+				<string>508443211CBD3E7D00F0FF99</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -214,60 +146,58 @@ fi
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>607FACCC1AFB9204008FA782</key>
+		<key>508443011CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>607FACD81AFB9204008FA782</string>
-				<string>607FACD61AFB9204008FA782</string>
+				<string>5084432C1CBD3EDC00F0FF99</string>
+				<string>5084430B1CBD3E7D00F0FF99</string>
+				<string>508443091CBD3E7D00F0FF99</string>
+				<string>5084432D1CBD3EDC00F0FF99</string>
+				<string>5084432E1CBD3EDC00F0FF99</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>607FACCD1AFB9204008FA782</key>
+		<key>508443021CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array>
-				<string>6564BC1FBEE4E071F9E700CB</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>607FACCE1AFB9204008FA782</key>
+		<key>508443031CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>607FACDB1AFB9204008FA782</string>
-				<string>607FACE01AFB9204008FA782</string>
-				<string>607FACDD1AFB9204008FA782</string>
+				<string>508443131CBD3E7D00F0FF99</string>
+				<string>508443101CBD3E7D00F0FF99</string>
+				<string>5084430E1CBD3E7D00F0FF99</string>
 			</array>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>607FACCF1AFB9204008FA782</key>
+		<key>508443041CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>607FACEF1AFB9204008FA782</string>
+			<string>508443221CBD3E7D00F0FF99</string>
 			<key>buildPhases</key>
 			<array>
-				<string>D12483D6A56D14FD59398157</string>
-				<string>607FACCC1AFB9204008FA782</string>
-				<string>607FACCD1AFB9204008FA782</string>
-				<string>607FACCE1AFB9204008FA782</string>
-				<string>4A768A32C948FB7ACD91D57A</string>
-				<string>A5E50E5C1FC8270186780C45</string>
+				<string>508443011CBD3E7D00F0FF99</string>
+				<string>508443021CBD3E7D00F0FF99</string>
+				<string>508443031CBD3E7D00F0FF99</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -276,15 +206,15 @@ fi
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Eventitic_Example</string>
+			<string>Eventitic</string>
 			<key>productName</key>
 			<string>Eventitic</string>
 			<key>productReference</key>
-			<string>607FACD01AFB9204008FA782</string>
+			<string>508443051CBD3E7D00F0FF99</string>
 			<key>productType</key>
 			<string>com.apple.product-type.application</string>
 		</dict>
-		<key>607FACD01AFB9204008FA782</key>
+		<key>508443051CBD3E7D00F0FF99</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.application</string>
@@ -293,16 +223,16 @@ fi
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>Eventitic_Example.app</string>
+			<string>Eventitic.app</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>607FACD11AFB9204008FA782</key>
+		<key>508443061CBD3E7D00F0FF99</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>607FACD01AFB9204008FA782</string>
-				<string>607FACE51AFB9204008FA782</string>
+				<string>508443051CBD3E7D00F0FF99</string>
+				<string>508443191CBD3E7D00F0FF99</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -311,51 +241,25 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACD21AFB9204008FA782</key>
+		<key>508443071CBD3E7D00F0FF99</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>607FACD51AFB9204008FA782</string>
-				<string>607FACD71AFB9204008FA782</string>
-				<string>607FACD91AFB9204008FA782</string>
-				<string>607FACDC1AFB9204008FA782</string>
-				<string>607FACDE1AFB9204008FA782</string>
-				<string>607FACD31AFB9204008FA782</string>
+				<string>508443081CBD3E7D00F0FF99</string>
+				<string>5084430A1CBD3E7D00F0FF99</string>
+				<string>5084430C1CBD3E7D00F0FF99</string>
+				<string>5084430F1CBD3E7D00F0FF99</string>
+				<string>508443111CBD3E7D00F0FF99</string>
+				<string>508443141CBD3E7D00F0FF99</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Example for Eventitic</string>
 			<key>path</key>
 			<string>Eventitic</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACD31AFB9204008FA782</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>607FACD41AFB9204008FA782</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>607FACD41AFB9204008FA782</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>607FACD51AFB9204008FA782</key>
+		<key>508443081CBD3E7D00F0FF99</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -366,14 +270,14 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACD61AFB9204008FA782</key>
+		<key>508443091CBD3E7D00F0FF99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>607FACD51AFB9204008FA782</string>
+			<string>508443081CBD3E7D00F0FF99</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>607FACD71AFB9204008FA782</key>
+		<key>5084430A1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -384,18 +288,18 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACD81AFB9204008FA782</key>
+		<key>5084430B1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>607FACD71AFB9204008FA782</string>
+			<string>5084430A1CBD3E7D00F0FF99</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>607FACD91AFB9204008FA782</key>
+		<key>5084430C1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>607FACDA1AFB9204008FA782</string>
+				<string>5084430D1CBD3E7D00F0FF99</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
@@ -404,7 +308,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACDA1AFB9204008FA782</key>
+		<key>5084430D1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -417,194 +321,65 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACDB1AFB9204008FA782</key>
+		<key>5084430E1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>607FACD91AFB9204008FA782</string>
+			<string>5084430C1CBD3E7D00F0FF99</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>607FACDC1AFB9204008FA782</key>
+		<key>5084430F1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>folder.assetcatalog</string>
 			<key>path</key>
-			<string>Images.xcassets</string>
+			<string>Assets.xcassets</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACDD1AFB9204008FA782</key>
+		<key>508443101CBD3E7D00F0FF99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>607FACDC1AFB9204008FA782</string>
+			<string>5084430F1CBD3E7D00F0FF99</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>607FACDE1AFB9204008FA782</key>
+		<key>508443111CBD3E7D00F0FF99</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>607FACDF1AFB9204008FA782</string>
+				<string>508443121CBD3E7D00F0FF99</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
 			<key>name</key>
-			<string>LaunchScreen.xib</string>
+			<string>LaunchScreen.storyboard</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACDF1AFB9204008FA782</key>
+		<key>508443121CBD3E7D00F0FF99</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>file.xib</string>
+			<string>file.storyboard</string>
 			<key>name</key>
 			<string>Base</string>
 			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACE01AFB9204008FA782</key>
+		<key>508443131CBD3E7D00F0FF99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>607FACDE1AFB9204008FA782</string>
+			<string>508443111CBD3E7D00F0FF99</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>607FACE11AFB9204008FA782</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>607FACEC1AFB9204008FA782</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>607FACE21AFB9204008FA782</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1F259C16E9E3F9D462F41B06</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>607FACE31AFB9204008FA782</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>607FACE41AFB9204008FA782</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>607FACF21AFB9204008FA782</string>
-			<key>buildPhases</key>
-			<array>
-				<string>024A83FF3BC7EF76614A0697</string>
-				<string>607FACE11AFB9204008FA782</string>
-				<string>607FACE21AFB9204008FA782</string>
-				<string>607FACE31AFB9204008FA782</string>
-				<string>9D124C22A3FA5EC07932B52C</string>
-				<string>DE711DADE224677A5E7643BA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>607FACE71AFB9204008FA782</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Eventitic_Tests</string>
-			<key>productName</key>
-			<string>Tests</string>
-			<key>productReference</key>
-			<string>607FACE51AFB9204008FA782</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>607FACE51AFB9204008FA782</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Eventitic_Tests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>607FACE61AFB9204008FA782</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>607FACC81AFB9204008FA782</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>607FACCF1AFB9204008FA782</string>
-			<key>remoteInfo</key>
-			<string>Eventitic</string>
-		</dict>
-		<key>607FACE71AFB9204008FA782</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>607FACCF1AFB9204008FA782</string>
-			<key>targetProxy</key>
-			<string>607FACE61AFB9204008FA782</string>
-		</dict>
-		<key>607FACE81AFB9204008FA782</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>607FACEB1AFB9204008FA782</string>
-				<string>607FACE91AFB9204008FA782</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>607FACE91AFB9204008FA782</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>607FACEA1AFB9204008FA782</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>607FACEA1AFB9204008FA782</key>
+		<key>508443141CBD3E7D00F0FF99</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -615,30 +390,159 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACEB1AFB9204008FA782</key>
+		<key>508443151CBD3E7D00F0FF99</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5084431E1CBD3E7D00F0FF99</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>508443161CBD3E7D00F0FF99</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C4443C5EFAE83316C1DEE451</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>508443171CBD3E7D00F0FF99</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>508443181CBD3E7D00F0FF99</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>508443251CBD3E7D00F0FF99</string>
+			<key>buildPhases</key>
+			<array>
+				<string>59665EF3367950AF49A9CC0A</string>
+				<string>508443151CBD3E7D00F0FF99</string>
+				<string>508443161CBD3E7D00F0FF99</string>
+				<string>508443171CBD3E7D00F0FF99</string>
+				<string>2D2B7DF560D3A2969EA0CBA6</string>
+				<string>B44B7C13411D724850CE99B9</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>5084431B1CBD3E7D00F0FF99</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>EventiticTests</string>
+			<key>productName</key>
+			<string>EventiticTests</string>
+			<key>productReference</key>
+			<string>508443191CBD3E7D00F0FF99</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>508443191CBD3E7D00F0FF99</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>EventiticTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5084431A1CBD3E7D00F0FF99</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>508442FD1CBD3E7D00F0FF99</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>508443041CBD3E7D00F0FF99</string>
+			<key>remoteInfo</key>
+			<string>Eventitic</string>
+		</dict>
+		<key>5084431B1CBD3E7D00F0FF99</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>508443041CBD3E7D00F0FF99</string>
+			<key>targetProxy</key>
+			<string>5084431A1CBD3E7D00F0FF99</string>
+		</dict>
+		<key>5084431C1CBD3E7D00F0FF99</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5084431D1CBD3E7D00F0FF99</string>
+				<string>5084431F1CBD3E7D00F0FF99</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>EventiticTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5084431D1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>path</key>
-			<string>Tests.swift</string>
+			<string>EventiticTests.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>607FACEC1AFB9204008FA782</key>
+		<key>5084431E1CBD3E7D00F0FF99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>607FACEB1AFB9204008FA782</string>
+			<string>5084431D1CBD3E7D00F0FF99</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>607FACED1AFB9204008FA782</key>
+		<key>5084431F1CBD3E7D00F0FF99</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>508443201CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
 				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
 				<string>gnu++0x</string>
 				<key>CLANG_CXX_LIBRARY</key>
@@ -670,7 +574,7 @@ fi
 				<key>COPY_PHASE_STRIP</key>
 				<string>NO</string>
 				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
+				<string>dwarf</string>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
 				<string>YES</string>
 				<key>ENABLE_TESTABILITY</key>
@@ -688,8 +592,6 @@ fi
 					<string>DEBUG=1</string>
 					<string>$(inherited)</string>
 				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
 				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
 				<string>YES</string>
 				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
@@ -712,18 +614,22 @@ fi
 				<string>iphoneos</string>
 				<key>SWIFT_OPTIMIZATION_LEVEL</key>
 				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>607FACEE1AFB9204008FA782</key>
+		<key>508443211CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
 				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
 				<string>gnu++0x</string>
 				<key>CLANG_CXX_LIBRARY</key>
@@ -782,6 +688,8 @@ fi
 				<string>NO</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
 			</dict>
@@ -790,12 +698,12 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>607FACEF1AFB9204008FA782</key>
+		<key>508443221CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>607FACF01AFB9204008FA782</string>
-				<string>607FACF11AFB9204008FA782</string>
+				<string>508443231CBD3E7D00F0FF99</string>
+				<string>508443241CBD3E7D00F0FF99</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -804,10 +712,8 @@ fi
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>607FACF01AFB9204008FA782</key>
+		<key>508443231CBD3E7D00F0FF99</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5AFA7233889AA919A95068CD</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -816,10 +722,8 @@ fi
 				<string>Eventitic/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>MODULE_NAME</key>
-				<string>ExampleApp</string>
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)</string>
+				<string>com.hironytic.Eventitic</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 			</dict>
@@ -828,10 +732,8 @@ fi
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>607FACF11AFB9204008FA782</key>
+		<key>508443241CBD3E7D00F0FF99</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>674E7FC4AF1BCC0D40A4FC95</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -840,10 +742,8 @@ fi
 				<string>Eventitic/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>MODULE_NAME</key>
-				<string>ExampleApp</string>
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)</string>
+				<string>com.hironytic.Eventitic</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 			</dict>
@@ -852,12 +752,12 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>607FACF21AFB9204008FA782</key>
+		<key>508443251CBD3E7D00F0FF99</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>607FACF31AFB9204008FA782</string>
-				<string>607FACF41AFB9204008FA782</string>
+				<string>508443261CBD3E7D00F0FF99</string>
+				<string>508443271CBD3E7D00F0FF99</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -866,218 +766,132 @@ fi
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>607FACF31AFB9204008FA782</key>
+		<key>508443261CBD3E7D00F0FF99</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>3C3B782EC5EA22F47BD335F8</string>
+			<string>D514CCA63679BEB9A6B8423E</string>
 			<key>buildSettings</key>
 			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Tests/Info.plist</string>
+				<string>EventiticTests/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)</string>
+				<string>com.hironytic.EventiticTests</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Eventitic.app/Eventitic</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>607FACF41AFB9204008FA782</key>
+		<key>508443271CBD3E7D00F0FF99</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>9447D705C4A387EB36FAE970</string>
+			<string>BAADF43DFFE2A75D92E1EEF8</string>
 			<key>buildSettings</key>
 			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Tests/Info.plist</string>
+				<string>EventiticTests/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)</string>
+				<string>com.hironytic.EventiticTests</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Eventitic.app/Eventitic</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>607FACF51AFB993E008FA782</key>
+		<key>508443281CBD3EB600F0FF99</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>A1FA9F80EDD5B551550F4B12</string>
-				<string>31CD94942E33824F1A180EFC</string>
-				<string>D776D12FE6DBBF685AAD9A1B</string>
+				<string>508443291CBD3EDC00F0FF99</string>
+				<string>5084432A1CBD3EDC00F0FF99</string>
+				<string>5084432B1CBD3EDC00F0FF99</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Podspec Metadata</string>
+			<string>Sources</string>
+			<key>path</key>
+			<string>../Sources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>62DC428B60ACBC435B30C2C1</key>
+		<key>508443291CBD3EDC00F0FF99</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>5AFA7233889AA919A95068CD</string>
-				<string>674E7FC4AF1BCC0D40A4FC95</string>
-				<string>3C3B782EC5EA22F47BD335F8</string>
-				<string>9447D705C4A387EB36FAE970</string>
-			</array>
+			<key>fileEncoding</key>
+			<string>4</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>EventSource.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6564BC1FBEE4E071F9E700CB</key>
+		<key>5084432A1CBD3EDC00F0FF99</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Listener.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5084432B1CBD3EDC00F0FF99</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ListenerStore.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5084432C1CBD3EDC00F0FF99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>24C60D34A45C5534184113C6</string>
+			<string>508443291CBD3EDC00F0FF99</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>674E7FC4AF1BCC0D40A4FC95</key>
+		<key>5084432D1CBD3EDC00F0FF99</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>5084432A1CBD3EDC00F0FF99</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Eventitic_Example.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Eventitic_Example/Pods-Eventitic_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>9447D705C4A387EB36FAE970</key>
+		<key>5084432E1CBD3EDC00F0FF99</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>5084432B1CBD3EDC00F0FF99</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Eventitic_Tests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Eventitic_Tests/Pods-Eventitic_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>9D124C22A3FA5EC07932B52C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Eventitic_Tests/Pods-Eventitic_Tests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A1FA9F80EDD5B551550F4B12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Eventitic.podspec</string>
-			<key>path</key>
-			<string>../Eventitic.podspec</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5E50E5C1FC8270186780C45</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Eventitic_Example/Pods-Eventitic_Example-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AFB81F7D9A6B7C4B1BDDAC7A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>24C60D34A45C5534184113C6</string>
-				<string>C9E8B3316B3ACFCC68AE1638</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C9E8B3316B3ACFCC68AE1638</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_Eventitic_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D12483D6A56D14FD59398157</key>
+		<key>59665EF3367950AF49A9CC0A</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -1107,20 +921,20 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>D776D12FE6DBBF685AAD9A1B</key>
+		<key>A7F1DA68B994C91567189732</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LICENSE</string>
 			<key>path</key>
-			<string>../LICENSE</string>
+			<string>Pods_EventiticTests.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>DE711DADE224677A5E7643BA</key>
+		<key>B44B7C13411D724850CE99B9</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -1139,13 +953,50 @@ fi
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Eventitic_Tests/Pods-Eventitic_Tests-resources.sh"
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests-resources.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
+		<key>BAADF43DFFE2A75D92E1EEF8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-EventiticTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C4443C5EFAE83316C1DEE451</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A7F1DA68B994C91567189732</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D514CCA63679BEB9A6B8423E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-EventiticTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>607FACC81AFB9204008FA782</string>
+	<string>508442FD1CBD3E7D00F0FF99</string>
 </dict>
 </plist>
