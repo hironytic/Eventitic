@@ -29,25 +29,31 @@ public protocol Unlistenable {
     func unlisten()
 }
 
+/// This class represents a listener of specific event source.
 public class Listener<T>: Unlistenable, Equatable {
     public typealias Handler = T -> Void
 
     private let eventSource: EventSource<T>
     private let handler: Handler
  
-    public init(eventSource: EventSource<T>, handler: Handler) {
+    init(eventSource: EventSource<T>, handler: Handler) {
         self.eventSource = eventSource
         self.handler = handler;
     }
     
-    public func handleEvent(value: T) {
+    func handleEvent(value: T) {
         handler(value)
     }
     
+    /// Stops listening.
     public func unlisten() {
         eventSource.unlisten(self)
     }
     
+    /// Adds this object to specified listener store.
+    /// Calling this method is equivalent to calling `ListenerStore.add(_:)` with this object as a parameter.
+    /// - Parameter listenerStore: A listener store to which this object is added.
+    /// - SeeAlso: `ListenerStore.add(_:)`
     public func addToStore(listenerStore: ListenerStore) {
         listenerStore.add(self)
     }
