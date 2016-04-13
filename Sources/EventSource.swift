@@ -53,8 +53,8 @@ public class EventSource<T> {
         if let pool = unlistenPools.last {
             pool.listeners.append(listener)
         } else {
-            if let index = listeners.indexOf(listener) {
-                listeners.removeAtIndex(index)
+            if let index = listeners.index(of: listener) {
+                listeners.remove(at: index)
             }
         }
     }
