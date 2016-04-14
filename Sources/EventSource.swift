@@ -29,20 +29,27 @@ private class UnlistenPool<T> {
     private var listeners: [Listener<T>] = []
 }
 
+///
 /// This class represents a source of events.
+///
 public class EventSource<T> {
     private var listeners: [Listener<T>]
     private var unlistenPools: [UnlistenPool<T>]
 
+    ///
     /// Initializes an event source.
+    ///
     public init() {
         listeners = []
         unlistenPools = []
     }
     
+    ///
     /// Begins listening to events.
+    ///
     /// - Parameter handler: A closure which handles events.
     /// - Returns: A listener object.
+    ///
     public func listen(handler: T -> Void) -> Listener<T> {
         let listener = Listener(eventSource: self, handler: handler)
         listeners.append(listener)
@@ -59,8 +66,11 @@ public class EventSource<T> {
         }
     }
 
+    ///
     /// Dispaches an event to its listeners.
+    ///
     /// - Parameter value: An event value.
+    ///
     public func fire(value: T) {
         unlistenPools.append(UnlistenPool<T>())
         

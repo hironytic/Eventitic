@@ -25,11 +25,19 @@
 
 import Foundation
 
+///
+/// A protocol conformed to by types which can unlisten to events.
+///
 public protocol Unlistenable {
+    ///
+    /// Stops listening.
+    ///
     func unlisten()
 }
 
+///
 /// This class represents a listener of specific event source.
+///
 public class Listener<T>: Unlistenable, Equatable {
     public typealias Handler = T -> Void
 
@@ -45,20 +53,28 @@ public class Listener<T>: Unlistenable, Equatable {
         handler(value)
     }
     
+    ///
     /// Stops listening.
+    ///
     public func unlisten() {
         eventSource.unlisten(self)
     }
     
+    ///
     /// Adds this object to specified listener store.
     /// Calling this method is equivalent to calling `ListenerStore.add(_:)` with this object as a parameter.
+    ///
     /// - Parameter listenerStore: A listener store to which this object is added.
     /// - SeeAlso: `ListenerStore.add(_:)`
+    ///
     public func addToStore(listenerStore: ListenerStore) {
         listenerStore.add(self)
     }
 }
 
+///
+/// Checks equality of two `Listener`s.
+///
 public func ==<T>(lhs: Listener<T>, rhs: Listener<T>) -> Bool {
     return lhs === rhs
 }

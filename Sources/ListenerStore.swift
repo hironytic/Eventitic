@@ -25,7 +25,9 @@
 
 import Foundation
 
+///
 /// This is a utility class which holds listeners and makes it possible to unlisten them all.
+///
 public class ListenerStore {
     private var items: [Unlistenable]
     
@@ -38,13 +40,18 @@ public class ListenerStore {
         unlistenAll()
     }
     
+    ///
     /// Adds a listener.
+    ///
     /// - Parameter listener: A listener which will be added to this store.
+    ///
     public func add(listener: Unlistenable) {
         items.append(listener)
     }
 
+    ///
     /// Makes all listeners in this store unlisten.
+    ///
     public func unlistenAll() {
         items.forEach { $0.unlisten() }
         items.removeAll()

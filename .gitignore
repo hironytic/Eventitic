@@ -27,3 +27,6 @@ Carthage
 
 # Swift Package Manager
 .build/
+
+# jazzy
+/Develop/docs/
