@@ -1,5 +1,5 @@
 PODS:
-  - Eventitic (0.1.0)
+  - Eventitic (1.0.0)
 
 DEPENDENCIES:
   - Eventitic (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Eventitic: 1e47cb025c657e51def211658fbde5ebc231ff4d
+  Eventitic: a73a9355629abe73b9d6c16f290559e6cce6d1c9
 
 COCOAPODS: 0.39.0

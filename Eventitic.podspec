@@ -8,34 +8,20 @@
 
 Pod::Spec.new do |s|
   s.name             = "Eventitic"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "Dispatching and listening events"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
                        This pod provides an event source object which dispatches events to listeners.
                        DESC
 
   s.homepage         = "https://github.com/hironytic/Eventitic"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Hironori Ichimiya" => "hiron@hironytic.com" }
   s.source           = { :git => "https://github.com/hironytic/Eventitic.git", :tag => "v#{s.version}" }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Sources/**/*'
-  # s.resource_bundles = {
-  #   'Eventitic' => ['Pod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
