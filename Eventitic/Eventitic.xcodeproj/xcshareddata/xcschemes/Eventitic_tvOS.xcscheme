@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50AF3AF21CC6FC3C0042F81C"
+               BlueprintIdentifier = "50E10B861CC794AC002C37E3"
                BuildableName = "Eventitic.framework"
-               BlueprintName = "Eventitic"
+               BlueprintName = "Eventitic_tvOS"
                ReferencedContainer = "container:Eventitic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,29 +26,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50AF3AFC1CC6FC3C0042F81C"
-               BuildableName = "EventiticTests.xctest"
-               BlueprintName = "EventiticTests"
-               ReferencedContainer = "container:Eventitic.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50AF3AF21CC6FC3C0042F81C"
-            BuildableName = "Eventitic.framework"
-            BlueprintName = "Eventitic"
-            ReferencedContainer = "container:Eventitic.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -65,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50AF3AF21CC6FC3C0042F81C"
+            BlueprintIdentifier = "50E10B861CC794AC002C37E3"
             BuildableName = "Eventitic.framework"
-            BlueprintName = "Eventitic"
+            BlueprintName = "Eventitic_tvOS"
             ReferencedContainer = "container:Eventitic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50AF3AF21CC6FC3C0042F81C"
+            BlueprintIdentifier = "50E10B861CC794AC002C37E3"
             BuildableName = "Eventitic.framework"
-            BlueprintName = "Eventitic"
+            BlueprintName = "Eventitic_tvOS"
             ReferencedContainer = "container:Eventitic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
