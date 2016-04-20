@@ -19,14 +19,11 @@ DerivedData
 *.hmap
 *.ipa
 
-# Bundler
-.bundle
-
 # Carthage
-Carthage
+Carthage/
 
 # Swift Package Manager
 .build/
 
 # jazzy
-/Develop/docs/
+/Eventitic/docs/
