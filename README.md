@@ -59,6 +59,9 @@ store.unlistenAll()
 ## Requirements
 
 - iOS 8.0+
+- OS X 10.9+
+- watchOS 2.0+
+- tvOS 9.0+
 - Swift 2.2+
 
 ## Installation
