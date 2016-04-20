@@ -3,11 +3,23 @@
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target 'Eventitic' do
+target 'Eventitic_iOS' do
 
 end
 
-target 'EventiticTests' do
+target 'EventiticTests_iOS' do
   pod 'Nimble', '4.0.0'
+end
+
+target 'Eventitic_OSX' do
+
+end
+
+target 'Eventitic_watchOS' do
+
+end
+
+target 'Eventitic_tvOS' do
+
 end
 
