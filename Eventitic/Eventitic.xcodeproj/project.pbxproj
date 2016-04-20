@@ -17,7 +17,6 @@
 		50E10B731CC7921E002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; };
 		50E10B811CC79367002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; };
 		50E10B8F1CC794C6002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; };
-		CEB2DF99BB763F9355E3707F /* Pods_EventiticTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D07EBC57BEBAE128D42226E /* Pods_EventiticTests_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +43,6 @@
 		50AF3B121CC6FD890042F81C /* ListenerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenerStore.swift; sourceTree = "<group>"; };
 		50E10B791CC79303002C37E3 /* Eventitic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eventitic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E10B871CC794AC002C37E3 /* Eventitic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eventitic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D07EBC57BEBAE128D42226E /* Pods_EventiticTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventiticTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9635B7EF0B69FCBD3E21CA99 /* Pods-EventiticTests_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventiticTests_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventiticTests_iOS/Pods-EventiticTests_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DE2DE44C19979BBC91A74B44 /* Pods-EventiticTests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventiticTests_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventiticTests_iOS/Pods-EventiticTests_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +65,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AF3AFE1CC6FC3C0042F81C /* Eventitic.framework in Frameworks */,
-				CEB2DF99BB763F9355E3707F /* Pods_EventiticTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +92,6 @@
 				50AF3B0E1CC6FD890042F81C /* Sources */,
 				50AF3B011CC6FC3C0042F81C /* EventiticTests */,
 				50AF3AF41CC6FC3C0042F81C /* Products */,
-				8F3EFC9F8C53E6975BEE29DA /* Pods */,
-				8C6822E4C7C0DED3D71D746B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,23 +135,6 @@
 			);
 			name = Sources;
 			path = ../Sources;
-			sourceTree = "<group>";
-		};
-		8C6822E4C7C0DED3D71D746B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5D07EBC57BEBAE128D42226E /* Pods_EventiticTests_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8F3EFC9F8C53E6975BEE29DA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9635B7EF0B69FCBD3E21CA99 /* Pods-EventiticTests_iOS.debug.xcconfig */,
-				DE2DE44C19979BBC91A74B44 /* Pods-EventiticTests_iOS.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,12 +215,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50AF3B0A1CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "EventiticTests_iOS" */;
 			buildPhases = (
-				CCDACAB4787F13F0EF56AAFE /* Check Pods Manifest.lock */,
 				50AF3AF91CC6FC3C0042F81C /* Sources */,
 				50AF3AFA1CC6FC3C0042F81C /* Frameworks */,
 				50AF3AFB1CC6FC3C0042F81C /* Resources */,
-				748E8A9F0609B7354CE4E046 /* Embed Pods Frameworks */,
-				26BF805BDB4F0954B651F986 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -376,54 +349,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		26BF805BDB4F0954B651F986 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventiticTests_iOS/Pods-EventiticTests_iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		748E8A9F0609B7354CE4E046 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventiticTests_iOS/Pods-EventiticTests_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCDACAB4787F13F0EF56AAFE /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		500E8F6D1CC7753F0030818B /* Sources */ = {
@@ -644,7 +569,6 @@
 		};
 		50AF3B0B1CC6FC3C0042F81C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9635B7EF0B69FCBD3E21CA99 /* Pods-EventiticTests_iOS.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = EventiticTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -655,7 +579,6 @@
 		};
 		50AF3B0C1CC6FC3C0042F81C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE2DE44C19979BBC91A74B44 /* Pods-EventiticTests_iOS.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = EventiticTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
