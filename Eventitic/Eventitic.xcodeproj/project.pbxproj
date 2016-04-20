@@ -14,7 +14,21 @@
 		50AF3B141CC6FD890042F81C /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
 		50AF3B151CC6FD890042F81C /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
 		50AF3B161CC6FD890042F81C /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
-		5DEAD9ABF012648F84193EAC /* Pods_EventiticTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88386298998FD4AFEA57EFA /* Pods_EventiticTests.framework */; };
+		50E0DB761CC7CB8E00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
+		50E0DB771CC7CB8E00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
+		50E0DB781CC7CB8F00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
+		50E0DB791CC7CB9200441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
+		50E0DB7A1CC7CB9300441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
+		50E0DB7B1CC7CB9300441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
+		50E0DB7C1CC7CB9600441694 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
+		50E0DB7D1CC7CB9700441694 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
+		50E0DB7E1CC7CB9700441694 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
+		50E0DB7F1CC7CB9A00441694 /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
+		50E0DB801CC7CB9B00441694 /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
+		50E0DB811CC7CB9B00441694 /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
+		50E10B731CC7921E002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E10B811CC79367002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E10B8F1CC794C6002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +42,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10F74202F01060AE483BB2AE /* Pods-EventiticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventiticTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests.release.xcconfig"; sourceTree = "<group>"; };
+		500E8F721CC7753F0030818B /* Eventitic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eventitic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AF3AF31CC6FC3C0042F81C /* Eventitic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eventitic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AF3AF61CC6FC3C0042F81C /* Eventitic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Eventitic.h; sourceTree = "<group>"; };
 		50AF3AF81CC6FC3C0042F81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50AF3AFD1CC6FC3C0042F81C /* EventiticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventiticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AF3AFD1CC6FC3C0042F81C /* EventiticTests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventiticTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AF3B021CC6FC3C0042F81C /* EventiticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventiticTests.swift; sourceTree = "<group>"; };
 		50AF3B041CC6FC3C0042F81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AF3B0F1CC6FD890042F81C /* Compatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compatible.swift; sourceTree = "<group>"; };
 		50AF3B101CC6FD890042F81C /* EventSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSource.swift; sourceTree = "<group>"; };
 		50AF3B111CC6FD890042F81C /* Listener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
 		50AF3B121CC6FD890042F81C /* ListenerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenerStore.swift; sourceTree = "<group>"; };
-		50AF3B1A1CC709E90042F81C /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
-		50AF3B1B1CC709E90042F81C /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Framework.xcconfig; sourceTree = "<group>"; };
-		50AF3B1C1CC709E90042F81C /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
-		A56A3501D1D81566229DA8D8 /* Pods-EventiticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventiticTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F88386298998FD4AFEA57EFA /* Pods_EventiticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventiticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E10B791CC79303002C37E3 /* Eventitic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eventitic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E10B871CC794AC002C37E3 /* Eventitic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eventitic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		500E8F6E1CC7753F0030818B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50AF3AEF1CC6FC3C0042F81C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,7 +77,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AF3AFE1CC6FC3C0042F81C /* Eventitic.framework in Frameworks */,
-				5DEAD9ABF012648F84193EAC /* Pods_EventiticTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E10B751CC79303002C37E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E10B831CC794AC002C37E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				50AF3AF51CC6FC3C0042F81C /* Eventitic */,
-				50AF3B171CC709E90042F81C /* Configurations */,
 				50AF3B0E1CC6FD890042F81C /* Sources */,
 				50AF3B011CC6FC3C0042F81C /* EventiticTests */,
 				50AF3AF41CC6FC3C0042F81C /* Products */,
-				8F3EFC9F8C53E6975BEE29DA /* Pods */,
-				8C6822E4C7C0DED3D71D746B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,7 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				50AF3AF31CC6FC3C0042F81C /* Eventitic.framework */,
-				50AF3AFD1CC6FC3C0042F81C /* EventiticTests.xctest */,
+				50AF3AFD1CC6FC3C0042F81C /* EventiticTests_iOS.xctest */,
+				500E8F721CC7753F0030818B /* Eventitic.framework */,
+				50E10B791CC79303002C37E3 /* Eventitic.framework */,
+				50E10B871CC794AC002C37E3 /* Eventitic.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,36 +149,17 @@
 			path = ../Sources;
 			sourceTree = "<group>";
 		};
-		50AF3B171CC709E90042F81C /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				50AF3B1A1CC709E90042F81C /* UniversalFramework_Base.xcconfig */,
-				50AF3B1B1CC709E90042F81C /* UniversalFramework_Framework.xcconfig */,
-				50AF3B1C1CC709E90042F81C /* UniversalFramework_Test.xcconfig */,
-			);
-			path = Configurations;
-			sourceTree = "<group>";
-		};
-		8C6822E4C7C0DED3D71D746B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F88386298998FD4AFEA57EFA /* Pods_EventiticTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8F3EFC9F8C53E6975BEE29DA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A56A3501D1D81566229DA8D8 /* Pods-EventiticTests.debug.xcconfig */,
-				10F74202F01060AE483BB2AE /* Pods-EventiticTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		500E8F6F1CC7753F0030818B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E10B731CC7921E002C37E3 /* Eventitic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50AF3AF01CC6FC3C0042F81C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,12 +168,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50E10B761CC79303002C37E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E10B811CC79367002C37E3 /* Eventitic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E10B841CC794AC002C37E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E10B8F1CC794C6002C37E3 /* Eventitic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50AF3AF21CC6FC3C0042F81C /* Eventitic */ = {
+		500E8F711CC7753F0030818B /* Eventitic_OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50AF3B071CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "Eventitic" */;
+			buildConfigurationList = 500E8F791CC7753F0030818B /* Build configuration list for PBXNativeTarget "Eventitic_OSX" */;
+			buildPhases = (
+				500E8F6D1CC7753F0030818B /* Sources */,
+				500E8F6E1CC7753F0030818B /* Frameworks */,
+				500E8F6F1CC7753F0030818B /* Headers */,
+				500E8F701CC7753F0030818B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eventitic_OSX;
+			productName = "Eventitic-osx";
+			productReference = 500E8F721CC7753F0030818B /* Eventitic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50AF3AF21CC6FC3C0042F81C /* Eventitic_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AF3B071CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "Eventitic_iOS" */;
 			buildPhases = (
 				50AF3AEE1CC6FC3C0042F81C /* Sources */,
 				50AF3AEF1CC6FC3C0042F81C /* Frameworks */,
@@ -172,31 +218,64 @@
 			);
 			dependencies = (
 			);
-			name = Eventitic;
+			name = Eventitic_iOS;
 			productName = Eventitic;
 			productReference = 50AF3AF31CC6FC3C0042F81C /* Eventitic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		50AF3AFC1CC6FC3C0042F81C /* EventiticTests */ = {
+		50AF3AFC1CC6FC3C0042F81C /* EventiticTests_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50AF3B0A1CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "EventiticTests" */;
+			buildConfigurationList = 50AF3B0A1CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "EventiticTests_iOS" */;
 			buildPhases = (
-				CCDACAB4787F13F0EF56AAFE /* Check Pods Manifest.lock */,
 				50AF3AF91CC6FC3C0042F81C /* Sources */,
 				50AF3AFA1CC6FC3C0042F81C /* Frameworks */,
 				50AF3AFB1CC6FC3C0042F81C /* Resources */,
-				748E8A9F0609B7354CE4E046 /* Embed Pods Frameworks */,
-				26BF805BDB4F0954B651F986 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				50AF3B001CC6FC3C0042F81C /* PBXTargetDependency */,
 			);
-			name = EventiticTests;
+			name = EventiticTests_iOS;
 			productName = EventiticTests;
-			productReference = 50AF3AFD1CC6FC3C0042F81C /* EventiticTests.xctest */;
+			productReference = 50AF3AFD1CC6FC3C0042F81C /* EventiticTests_iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50E10B781CC79303002C37E3 /* Eventitic_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E10B801CC79303002C37E3 /* Build configuration list for PBXNativeTarget "Eventitic_watchOS" */;
+			buildPhases = (
+				50E10B741CC79303002C37E3 /* Sources */,
+				50E10B751CC79303002C37E3 /* Frameworks */,
+				50E10B761CC79303002C37E3 /* Headers */,
+				50E10B771CC79303002C37E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eventitic_watchOS;
+			productName = Eventitic;
+			productReference = 50E10B791CC79303002C37E3 /* Eventitic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50E10B861CC794AC002C37E3 /* Eventitic_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E10B8C1CC794AC002C37E3 /* Build configuration list for PBXNativeTarget "Eventitic_tvOS" */;
+			buildPhases = (
+				50E10B821CC794AC002C37E3 /* Sources */,
+				50E10B831CC794AC002C37E3 /* Frameworks */,
+				50E10B841CC794AC002C37E3 /* Headers */,
+				50E10B851CC794AC002C37E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eventitic_tvOS;
+			productName = Eventitic;
+			productReference = 50E10B871CC794AC002C37E3 /* Eventitic.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -207,10 +286,19 @@
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
+					500E8F711CC7753F0030818B = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					50AF3AF21CC6FC3C0042F81C = {
 						CreatedOnToolsVersion = 7.3;
 					};
 					50AF3AFC1CC6FC3C0042F81C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					50E10B781CC79303002C37E3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					50E10B861CC794AC002C37E3 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -227,13 +315,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50AF3AF21CC6FC3C0042F81C /* Eventitic */,
-				50AF3AFC1CC6FC3C0042F81C /* EventiticTests */,
+				50AF3AF21CC6FC3C0042F81C /* Eventitic_iOS */,
+				50AF3AFC1CC6FC3C0042F81C /* EventiticTests_iOS */,
+				500E8F711CC7753F0030818B /* Eventitic_OSX */,
+				50E10B781CC79303002C37E3 /* Eventitic_watchOS */,
+				50E10B861CC794AC002C37E3 /* Eventitic_tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		500E8F701CC7753F0030818B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50AF3AF11CC6FC3C0042F81C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,57 +346,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50E10B771CC79303002C37E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E10B851CC794AC002C37E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		26BF805BDB4F0954B651F986 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		748E8A9F0609B7354CE4E046 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCDACAB4787F13F0EF56AAFE /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
+		500E8F6D1CC7753F0030818B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E0DB761CC7CB8E00441694 /* Compatible.swift in Sources */,
+				50E0DB7F1CC7CB9A00441694 /* ListenerStore.swift in Sources */,
+				50E0DB7C1CC7CB9600441694 /* Listener.swift in Sources */,
+				50E0DB791CC7CB9200441694 /* EventSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50AF3AEE1CC6FC3C0042F81C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,17 +393,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50E10B741CC79303002C37E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E0DB771CC7CB8E00441694 /* Compatible.swift in Sources */,
+				50E0DB801CC7CB9B00441694 /* ListenerStore.swift in Sources */,
+				50E0DB7D1CC7CB9700441694 /* Listener.swift in Sources */,
+				50E0DB7A1CC7CB9300441694 /* EventSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E10B821CC794AC002C37E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E0DB781CC7CB8F00441694 /* Compatible.swift in Sources */,
+				50E0DB811CC7CB9B00441694 /* ListenerStore.swift in Sources */,
+				50E0DB7E1CC7CB9700441694 /* Listener.swift in Sources */,
+				50E0DB7B1CC7CB9300441694 /* EventSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		50AF3B001CC6FC3C0042F81C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50AF3AF21CC6FC3C0042F81C /* Eventitic */;
+			target = 50AF3AF21CC6FC3C0042F81C /* Eventitic_iOS */;
 			targetProxy = 50AF3AFF1CC6FC3C0042F81C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		500E8F771CC7753F0030818B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Eventitic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
+				PRODUCT_NAME = Eventitic;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		500E8F781CC7753F0030818B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Eventitic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
+				PRODUCT_NAME = Eventitic;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		50AF3B051CC6FC3C0042F81C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -368,6 +505,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,6 +549,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,7 +561,6 @@
 		};
 		50AF3B081CC6FC3C0042F81C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50AF3B1B1CC709E90042F81C /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -432,14 +570,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Eventitic;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		50AF3B091CC6FC3C0042F81C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50AF3B1B1CC709E90042F81C /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -449,14 +586,13 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Eventitic;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 		50AF3B0B1CC6FC3C0042F81C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56A3501D1D81566229DA8D8 /* Pods-EventiticTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = EventiticTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,7 +603,6 @@
 		};
 		50AF3B0C1CC6FC3C0042F81C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10F74202F01060AE483BB2AE /* Pods-EventiticTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = EventiticTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -476,9 +611,96 @@
 			};
 			name = Release;
 		};
+		50E10B7E1CC79303002C37E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Eventitic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
+				PRODUCT_NAME = Eventitic;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		50E10B7F1CC79303002C37E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Eventitic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
+				PRODUCT_NAME = Eventitic;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		50E10B8D1CC794AC002C37E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Eventitic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
+				PRODUCT_NAME = Eventitic;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		50E10B8E1CC794AC002C37E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Eventitic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
+				PRODUCT_NAME = Eventitic;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		500E8F791CC7753F0030818B /* Build configuration list for PBXNativeTarget "Eventitic_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500E8F771CC7753F0030818B /* Debug */,
+				500E8F781CC7753F0030818B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		50AF3AED1CC6FC3C0042F81C /* Build configuration list for PBXProject "Eventitic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -488,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50AF3B071CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "Eventitic" */ = {
+		50AF3B071CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "Eventitic_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50AF3B081CC6FC3C0042F81C /* Debug */,
@@ -497,11 +719,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50AF3B0A1CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "EventiticTests" */ = {
+		50AF3B0A1CC6FC3C0042F81C /* Build configuration list for PBXNativeTarget "EventiticTests_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50AF3B0B1CC6FC3C0042F81C /* Debug */,
 				50AF3B0C1CC6FC3C0042F81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E10B801CC79303002C37E3 /* Build configuration list for PBXNativeTarget "Eventitic_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E10B7E1CC79303002C37E3 /* Debug */,
+				50E10B7F1CC79303002C37E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E10B8C1CC794AC002C37E3 /* Build configuration list for PBXNativeTarget "Eventitic_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E10B8D1CC794AC002C37E3 /* Debug */,
+				50E10B8E1CC794AC002C37E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -24,7 +24,6 @@
 //
 
 import XCTest
-import Nimble
 
 @testable import Eventitic
 
@@ -52,8 +51,8 @@ class EventiticTests: XCTestCase {
         
         source.fire(10)
         
-        expect(values.count) == 1
-        expect(values[0]) == 10
+        XCTAssertEqual(values.count, 1)
+        XCTAssertEqual(values[0], 10)
     }
     
     func testShouldListenTwoFiredEvents() {
@@ -66,10 +65,10 @@ class EventiticTests: XCTestCase {
         
         source.fire(10)
         source.fire(20)
-        
-        expect(values.count) == 2
-        expect(values[0]) == 10
-        expect(values[1]) == 20
+
+        XCTAssertEqual(values.count, 2)
+        XCTAssertEqual(values[0], 10)
+        XCTAssertEqual(values[1], 20)
     }
     
     func testShouldDispatchToTwoListeners() {
@@ -88,10 +87,10 @@ class EventiticTests: XCTestCase {
         
         source.fire("foo")
         
-        expect(values1.count) == 1
-        expect(values2.count) == 1
-        expect(values1[0]) == "#1: foo"
-        expect(values2[0]) == "#2: foo"
+        XCTAssertEqual(values1.count, 1)
+        XCTAssertEqual(values2.count, 1)
+        XCTAssertEqual(values1[0], "#1: foo")
+        XCTAssertEqual(values2[0], "#2: foo")
     }
     
     // MARK: Unlistening to a Event
@@ -116,11 +115,11 @@ class EventiticTests: XCTestCase {
         
         source.fire("bar")
         
-        expect(values1.count) == 1
-        expect(values2.count) == 2
-        expect(values1[0]) == "#1: foo"
-        expect(values2[0]) == "#2: foo"
-        expect(values2[1]) == "#2: bar"
+        XCTAssertEqual(values1.count, 1)
+        XCTAssertEqual(values2.count, 2)
+        XCTAssertEqual(values1[0], "#1: foo")
+        XCTAssertEqual(values2[0], "#2: foo")
+        XCTAssertEqual(values2[1], "#2: bar")
     }
     
     func testShouldUnlistenEvenInHandler() {
@@ -142,11 +141,11 @@ class EventiticTests: XCTestCase {
         source.fire("foo")
         source.fire("bar")
         
-        expect(values1.count) == 1
-        expect(values2.count) == 2
-        expect(values1[0]) == "#1: foo"
-        expect(values2[0]) == "#2: foo"
-        expect(values2[1]) == "#2: bar"
+        XCTAssertEqual(values1.count, 1)
+        XCTAssertEqual(values2.count, 2)
+        XCTAssertEqual(values1[0], "#1: foo")
+        XCTAssertEqual(values2[0], "#2: foo")
+        XCTAssertEqual(values2[1], "#2: bar")
     }
     
     // MARK: Listener Store
@@ -173,9 +172,9 @@ class EventiticTests: XCTestCase {
         
         source.fire("bar")
         
-        expect(values1.count) == 1
-        expect(values2.count) == 1
-        expect(values1[0]) == "#1: foo"
-        expect(values2[0]) == "#2: foo"
+        XCTAssertEqual(values1.count, 1)
+        XCTAssertEqual(values2.count, 1)
+        XCTAssertEqual(values1[0], "#1: foo")
+        XCTAssertEqual(values2[0], "#2: foo")
     }
 }
