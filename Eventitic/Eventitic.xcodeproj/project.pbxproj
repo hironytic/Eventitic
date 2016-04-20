@@ -39,6 +39,9 @@
 		50AF3B101CC6FD890042F81C /* EventSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSource.swift; sourceTree = "<group>"; };
 		50AF3B111CC6FD890042F81C /* Listener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
 		50AF3B121CC6FD890042F81C /* ListenerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenerStore.swift; sourceTree = "<group>"; };
+		50AF3B1A1CC709E90042F81C /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
+		50AF3B1B1CC709E90042F81C /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Framework.xcconfig; sourceTree = "<group>"; };
+		50AF3B1C1CC709E90042F81C /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
 		A56A3501D1D81566229DA8D8 /* Pods-EventiticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventiticTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventiticTests/Pods-EventiticTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F88386298998FD4AFEA57EFA /* Pods_EventiticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventiticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				50AF3AF51CC6FC3C0042F81C /* Eventitic */,
+				50AF3B171CC709E90042F81C /* Configurations */,
 				50AF3B0E1CC6FD890042F81C /* Sources */,
 				50AF3B011CC6FC3C0042F81C /* EventiticTests */,
 				50AF3AF41CC6FC3C0042F81C /* Products */,
@@ -112,6 +116,16 @@
 			);
 			name = Sources;
 			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		50AF3B171CC709E90042F81C /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				50AF3B1A1CC709E90042F81C /* UniversalFramework_Base.xcconfig */,
+				50AF3B1B1CC709E90042F81C /* UniversalFramework_Framework.xcconfig */,
+				50AF3B1C1CC709E90042F81C /* UniversalFramework_Test.xcconfig */,
+			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 		8C6822E4C7C0DED3D71D746B /* Frameworks */ = {
@@ -353,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -396,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -408,6 +422,7 @@
 		};
 		50AF3B081CC6FC3C0042F81C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AF3B1B1CC709E90042F81C /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -424,6 +439,7 @@
 		};
 		50AF3B091CC6FC3C0042F81C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AF3B1B1CC709E90042F81C /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
