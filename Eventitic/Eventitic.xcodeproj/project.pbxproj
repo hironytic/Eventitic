@@ -14,6 +14,18 @@
 		50AF3B141CC6FD890042F81C /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
 		50AF3B151CC6FD890042F81C /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
 		50AF3B161CC6FD890042F81C /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
+		50E0DB761CC7CB8E00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
+		50E0DB771CC7CB8E00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
+		50E0DB781CC7CB8F00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
+		50E0DB791CC7CB9200441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
+		50E0DB7A1CC7CB9300441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
+		50E0DB7B1CC7CB9300441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
+		50E0DB7C1CC7CB9600441694 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
+		50E0DB7D1CC7CB9700441694 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
+		50E0DB7E1CC7CB9700441694 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
+		50E0DB7F1CC7CB9A00441694 /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
+		50E0DB801CC7CB9B00441694 /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
+		50E0DB811CC7CB9B00441694 /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
 		50E10B731CC7921E002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50E10B811CC79367002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50E10B8F1CC794C6002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -355,6 +367,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E0DB761CC7CB8E00441694 /* Compatible.swift in Sources */,
+				50E0DB7F1CC7CB9A00441694 /* ListenerStore.swift in Sources */,
+				50E0DB7C1CC7CB9600441694 /* Listener.swift in Sources */,
+				50E0DB791CC7CB9200441694 /* EventSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E0DB771CC7CB8E00441694 /* Compatible.swift in Sources */,
+				50E0DB801CC7CB9B00441694 /* ListenerStore.swift in Sources */,
+				50E0DB7D1CC7CB9700441694 /* Listener.swift in Sources */,
+				50E0DB7A1CC7CB9300441694 /* EventSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +408,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E0DB781CC7CB8F00441694 /* Compatible.swift in Sources */,
+				50E0DB811CC7CB9B00441694 /* ListenerStore.swift in Sources */,
+				50E0DB7E1CC7CB9700441694 /* Listener.swift in Sources */,
+				50E0DB7B1CC7CB9300441694 /* EventSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
