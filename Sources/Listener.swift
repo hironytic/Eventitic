@@ -70,6 +70,17 @@ public class Listener<T>: Unlistenable, Equatable {
     public func addToStore(listenerStore: ListenerStore) {
         listenerStore.add(self)
     }
+    
+    ///
+    /// Adds this object to specified listener store.
+    /// Calling this method is equivalent to calling `ListenerStore.add(_:)` with this object as a parameter.
+    ///
+    /// - Parameter listenerStore: A listener store to which this object is added.
+    /// - SeeAlso: `ListenerStore.add(_:)`
+    ///
+    public func add(to listenerStore: ListenerStore) {
+        listenerStore.add(self)
+    }
 }
 
 ///
