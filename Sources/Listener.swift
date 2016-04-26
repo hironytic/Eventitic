@@ -46,10 +46,10 @@ public class Listener<T>: Unlistenable, Equatable {
  
     init(eventSource: EventSource<T>, handler: Handler) {
         self.eventSource = eventSource
-        self.handler = handler;
+        self.handler = handler
     }
     
-    func handleEvent(value: T) {
+    func handleEvent(_ value: T) {
         handler(value)
     }
     

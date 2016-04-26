@@ -45,7 +45,7 @@ public class ListenerStore {
     ///
     /// - Parameter listener: A listener which will be added to this store.
     ///
-    public func add(listener: Unlistenable) {
+    public func add(_ listener: Unlistenable) {
         items.append(listener)
     }
 
