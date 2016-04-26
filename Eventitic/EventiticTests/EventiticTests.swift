@@ -160,11 +160,11 @@ class EventiticTests: XCTestCase {
         
         source.listen { value in
             values1.append("#1: \(value)")
-            }.addToStore(listenerStore)
+        }.addToStore(listenerStore)
         
         source.listen { value in
             values2.append("#2: \(value)")
-            }.addToStore(listenerStore)
+        }.add(to: listenerStore)
         
         source.fire("foo")
         
