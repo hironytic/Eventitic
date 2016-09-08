@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Eventitic"
-  s.version          = "1.0.1"
+  s.version          = "2.0.0"
   s.summary          = "Dispatching and listening events"
 
   s.description      = <<-DESC
