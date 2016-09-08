@@ -38,15 +38,15 @@ let source2 = EventSource<Int>()
 // listen
 source1.listen { message in
     print("listener 1: \(message)")
-}.add(to: store)
+}.addToStore(store)
 
 source1.listen { message in
     print("listener 2: \(message)")
-}.add(to: store)
+}.addToStore(store)
 
 source2.listen { value in
     print("listener 3: \(value)")
-}.add(to: store)
+}.addToStore(store)
 
 // dispatch
 source1.fire("foo")

@@ -67,19 +67,7 @@ open class Listener<T>: Unlistenable, Equatable {
     /// - Parameter listenerStore: A listener store to which this object is added.
     /// - SeeAlso: `ListenerStore.add(_:)`
     ///
-    @available(*, deprecated: 1.1.0, renamed: "add(to:)")
     open func addToStore(_ listenerStore: ListenerStore) {
-        listenerStore.add(self)
-    }
-    
-    ///
-    /// Adds this object to specified listener store.
-    /// Calling this method is equivalent to calling `ListenerStore.add(_:)` with this object as a parameter.
-    ///
-    /// - Parameter listenerStore: A listener store to which this object is added.
-    /// - SeeAlso: `ListenerStore.add(_:)`
-    ///
-    open func add(to listenerStore: ListenerStore) {
         listenerStore.add(self)
     }
 }
