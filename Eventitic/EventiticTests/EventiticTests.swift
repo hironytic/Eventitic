@@ -45,7 +45,7 @@ class EventiticTests: XCTestCase {
         var values: [Int] = []
         
         let source = EventSource<Int>()
-        source.listen { value in
+        let listener = source.listen { value in
             values.append(value)
         }
         
@@ -53,13 +53,15 @@ class EventiticTests: XCTestCase {
         
         XCTAssertEqual(values.count, 1)
         XCTAssertEqual(values[0], 10)
+        
+        listener.unlisten()
     }
     
     func testShouldListenTwoFiredEvents() {
         var values: [Int] = []
         
         let source = EventSource<Int>()
-        source.listen { value in
+        let listener = source.listen { value in
             values.append(value)
         }
         
@@ -69,6 +71,8 @@ class EventiticTests: XCTestCase {
         XCTAssertEqual(values.count, 2)
         XCTAssertEqual(values[0], 10)
         XCTAssertEqual(values[1], 20)
+        
+        listener.unlisten()
     }
     
     func testShouldDispatchToTwoListeners() {
@@ -77,11 +81,11 @@ class EventiticTests: XCTestCase {
         
         let source = EventSource<String>()
         
-        source.listen { value in
+        let listener1 = source.listen { value in
             values1.append("#1: \(value)")
         }
         
-        source.listen { value in
+        let listener2 = source.listen { value in
             values2.append("#2: \(value)")
         }
         
@@ -91,6 +95,9 @@ class EventiticTests: XCTestCase {
         XCTAssertEqual(values2.count, 1)
         XCTAssertEqual(values1[0], "#1: foo")
         XCTAssertEqual(values2[0], "#2: foo")
+        
+        listener1.unlisten()
+        listener2.unlisten()
     }
     
     // MARK: Unlistening to a Event
@@ -105,7 +112,7 @@ class EventiticTests: XCTestCase {
             values1.append("#1: \(value)")
         }
         
-        source.listen { value in
+        let listener2 = source.listen { value in
             values2.append("#2: \(value)")
         }
         
@@ -120,6 +127,8 @@ class EventiticTests: XCTestCase {
         XCTAssertEqual(values1[0], "#1: foo")
         XCTAssertEqual(values2[0], "#2: foo")
         XCTAssertEqual(values2[1], "#2: bar")
+        
+        listener2.unlisten()
     }
     
     func testShouldUnlistenEvenInHandler() {
@@ -134,7 +143,7 @@ class EventiticTests: XCTestCase {
             listener1?.unlisten()
         }
         
-        source.listen { value in
+        let listener2 = source.listen { value in
             values2.append("#2: \(value)")
         }
         
@@ -146,6 +155,8 @@ class EventiticTests: XCTestCase {
         XCTAssertEqual(values1[0], "#1: foo")
         XCTAssertEqual(values2[0], "#2: foo")
         XCTAssertEqual(values2[1], "#2: bar")
+        
+        listener2.unlisten()
     }
     
     // MARK: Listener Store

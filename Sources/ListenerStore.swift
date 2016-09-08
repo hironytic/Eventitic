@@ -28,8 +28,8 @@ import Foundation
 ///
 /// This is a utility class which holds listeners and makes it possible to unlisten them all.
 ///
-public class ListenerStore {
-    private var items: [Unlistenable]
+open class ListenerStore {
+    fileprivate var items: [Unlistenable]
     
     /// Initializes an object.
     public init() {
@@ -45,14 +45,14 @@ public class ListenerStore {
     ///
     /// - Parameter listener: A listener which will be added to this store.
     ///
-    public func add(_ listener: Unlistenable) {
+    open func add(_ listener: Unlistenable) {
         items.append(listener)
     }
 
     ///
     /// Makes all listeners in this store unlisten.
     ///
-    public func unlistenAll() {
+    open func unlistenAll() {
         items.forEach { $0.unlisten() }
         items.removeAll()
     }

@@ -25,16 +25,16 @@
 
 import Foundation
 
-private class UnlistenPool<T> {
-    private var listeners: [Listener<T>] = []
+fileprivate class UnlistenPool<T> {
+    fileprivate var listeners: [Listener<T>] = []
 }
 
 ///
 /// This class represents a source of events.
 ///
-public class EventSource<T> {
-    private var listeners: [Listener<T>]
-    private var unlistenPools: [UnlistenPool<T>]
+open class EventSource<T> {
+    fileprivate var listeners: [Listener<T>]
+    fileprivate var unlistenPools: [UnlistenPool<T>]
 
     ///
     /// Initializes an event source.
@@ -50,7 +50,7 @@ public class EventSource<T> {
     /// - Parameter handler: A closure which handles events.
     /// - Returns: A listener object.
     ///
-    public func listen(_ handler: T -> Void) -> Listener<T> {
+    open func listen(_ handler: @escaping (T) -> Void) -> Listener<T> {
         let listener = Listener(eventSource: self, handler: handler)
         listeners.append(listener)
         return listener
@@ -71,7 +71,7 @@ public class EventSource<T> {
     ///
     /// - Parameter value: An event value.
     ///
-    public func fire(_ value: T) {
+    open func fire(_ value: T) {
         unlistenPools.append(UnlistenPool<T>())
         
         listeners.forEach { listener in

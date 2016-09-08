@@ -38,13 +38,13 @@ public protocol Unlistenable {
 ///
 /// This class represents a listener of specific event source.
 ///
-public class Listener<T>: Unlistenable, Equatable {
-    public typealias Handler = T -> Void
+open class Listener<T>: Unlistenable, Equatable {
+    public typealias Handler = (T) -> Void
 
-    private let eventSource: EventSource<T>
-    private let handler: Handler
+    fileprivate let eventSource: EventSource<T>
+    fileprivate let handler: Handler
  
-    init(eventSource: EventSource<T>, handler: Handler) {
+    init(eventSource: EventSource<T>, handler: @escaping Handler) {
         self.eventSource = eventSource
         self.handler = handler
     }
@@ -56,7 +56,7 @@ public class Listener<T>: Unlistenable, Equatable {
     ///
     /// Stops listening.
     ///
-    public func unlisten() {
+    open func unlisten() {
         eventSource.unlisten(self)
     }
     
@@ -67,7 +67,8 @@ public class Listener<T>: Unlistenable, Equatable {
     /// - Parameter listenerStore: A listener store to which this object is added.
     /// - SeeAlso: `ListenerStore.add(_:)`
     ///
-    public func addToStore(listenerStore: ListenerStore) {
+    @available(*, deprecated: 1.1.0, renamed: "add(to:)")
+    open func addToStore(_ listenerStore: ListenerStore) {
         listenerStore.add(self)
     }
     
@@ -78,7 +79,7 @@ public class Listener<T>: Unlistenable, Equatable {
     /// - Parameter listenerStore: A listener store to which this object is added.
     /// - SeeAlso: `ListenerStore.add(_:)`
     ///
-    public func add(to listenerStore: ListenerStore) {
+    open func add(to listenerStore: ListenerStore) {
         listenerStore.add(self)
     }
 }
