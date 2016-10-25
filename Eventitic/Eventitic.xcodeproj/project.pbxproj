@@ -10,13 +10,9 @@
 		50AF3AF71CC6FC3C0042F81C /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50AF3AFE1CC6FC3C0042F81C /* Eventitic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AF3AF31CC6FC3C0042F81C /* Eventitic.framework */; };
 		50AF3B031CC6FC3C0042F81C /* EventiticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B021CC6FC3C0042F81C /* EventiticTests.swift */; };
-		50AF3B131CC6FD890042F81C /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
 		50AF3B141CC6FD890042F81C /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
 		50AF3B151CC6FD890042F81C /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
 		50AF3B161CC6FD890042F81C /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
-		50E0DB761CC7CB8E00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
-		50E0DB771CC7CB8E00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
-		50E0DB781CC7CB8F00441694 /* Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B0F1CC6FD890042F81C /* Compatible.swift */; };
 		50E0DB791CC7CB9200441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
 		50E0DB7A1CC7CB9300441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
 		50E0DB7B1CC7CB9300441694 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
@@ -49,7 +45,6 @@
 		50AF3AFD1CC6FC3C0042F81C /* EventiticTests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventiticTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AF3B021CC6FC3C0042F81C /* EventiticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventiticTests.swift; sourceTree = "<group>"; };
 		50AF3B041CC6FC3C0042F81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50AF3B0F1CC6FD890042F81C /* Compatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compatible.swift; sourceTree = "<group>"; };
 		50AF3B101CC6FD890042F81C /* EventSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSource.swift; sourceTree = "<group>"; };
 		50AF3B111CC6FD890042F81C /* Listener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
 		50AF3B121CC6FD890042F81C /* ListenerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenerStore.swift; sourceTree = "<group>"; };
@@ -140,7 +135,6 @@
 		50AF3B0E1CC6FD890042F81C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				50AF3B0F1CC6FD890042F81C /* Compatible.swift */,
 				50AF3B101CC6FD890042F81C /* EventSource.swift */,
 				50AF3B111CC6FD890042F81C /* Listener.swift */,
 				50AF3B121CC6FD890042F81C /* ListenerStore.swift */,
@@ -284,22 +278,27 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					500E8F711CC7753F0030818B = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					50AF3AF21CC6FC3C0042F81C = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					50AF3AFC1CC6FC3C0042F81C = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					50E10B781CC79303002C37E3 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					50E10B861CC794AC002C37E3 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -367,7 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E0DB761CC7CB8E00441694 /* Compatible.swift in Sources */,
 				50E0DB7F1CC7CB9A00441694 /* ListenerStore.swift in Sources */,
 				50E0DB7C1CC7CB9600441694 /* Listener.swift in Sources */,
 				50E0DB791CC7CB9200441694 /* EventSource.swift in Sources */,
@@ -378,7 +376,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AF3B131CC6FD890042F81C /* Compatible.swift in Sources */,
 				50AF3B161CC6FD890042F81C /* ListenerStore.swift in Sources */,
 				50AF3B151CC6FD890042F81C /* Listener.swift in Sources */,
 				50AF3B141CC6FD890042F81C /* EventSource.swift in Sources */,
@@ -397,7 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E0DB771CC7CB8E00441694 /* Compatible.swift in Sources */,
 				50E0DB801CC7CB9B00441694 /* ListenerStore.swift in Sources */,
 				50E0DB7D1CC7CB9700441694 /* Listener.swift in Sources */,
 				50E0DB7A1CC7CB9300441694 /* EventSource.swift in Sources */,
@@ -408,7 +404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E0DB781CC7CB8F00441694 /* Compatible.swift in Sources */,
 				50E0DB811CC7CB9B00441694 /* ListenerStore.swift in Sources */,
 				50E0DB7E1CC7CB9700441694 /* Listener.swift in Sources */,
 				50E0DB7B1CC7CB9300441694 /* EventSource.swift in Sources */,
@@ -429,7 +424,7 @@
 		500E8F771CC7753F0030818B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -443,13 +438,14 @@
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		500E8F781CC7753F0030818B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -463,6 +459,7 @@
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -480,8 +477,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -530,8 +529,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -552,6 +553,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -562,6 +564,7 @@
 		50AF3B081CC6FC3C0042F81C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -572,12 +575,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		50AF3B091CC6FC3C0042F81C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -588,6 +593,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -598,6 +604,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.EventiticTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -608,6 +615,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.EventiticTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -615,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -626,6 +635,7 @@
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -635,6 +645,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -646,6 +657,7 @@
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -654,6 +666,7 @@
 		50E10B8D1CC794AC002C37E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -665,6 +678,7 @@
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -673,6 +687,7 @@
 		50E10B8E1CC794AC002C37E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -684,6 +699,7 @@
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};

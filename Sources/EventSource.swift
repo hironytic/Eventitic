@@ -26,7 +26,7 @@
 import Foundation
 
 private class UnlistenPool<T> {
-    private var listeners: [Listener<T>] = []
+    var listeners: [Listener<T>] = []
 }
 
 ///
@@ -50,13 +50,13 @@ public class EventSource<T> {
     /// - Parameter handler: A closure which handles events.
     /// - Returns: A listener object.
     ///
-    public func listen(handler: T -> Void) -> Listener<T> {
+    public func listen(_ handler: @escaping (T) -> Void) -> Listener<T> {
         let listener = Listener(eventSource: self, handler: handler)
         listeners.append(listener)
         return listener
     }
     
-    func unlisten(listener: Listener<T>) {
+    func unlisten(_ listener: Listener<T>) {
         if let pool = unlistenPools.last {
             pool.listeners.append(listener)
         } else {
@@ -71,7 +71,7 @@ public class EventSource<T> {
     ///
     /// - Parameter value: An event value.
     ///
-    public func fire(value: T) {
+    public func fire(_ value: T) {
         unlistenPools.append(UnlistenPool<T>())
         
         listeners.forEach { listener in
