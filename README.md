@@ -96,8 +96,9 @@ import PackageDescription
 let package = Package(
     name: "Hello",
     dependencies: [
-        .Package(url: "https://github.com/hironytic/Eventitic.git", majorVersion: 3),
-    ]
+        .package(url: "https://github.com/hironytic/Eventitic.git", from: "3.0.0"),
+    ],
+    ...
 )
 ```
 
