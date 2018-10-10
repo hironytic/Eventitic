@@ -73,7 +73,7 @@ To install it, simply add the following lines to your Podfile:
 
 ```ruby
 use_frameworks!
-pod "Eventitic", '~> 3.0'
+pod "Eventitic", '~> 4.0'
 ```
 
 ### Carthage
@@ -82,7 +82,7 @@ Eventitic is available through [Carthage](https://github.com/Carthage/Carthage).
 To install it, simply add the following line to your Cartfile:
 
 ```
-github "hironytic/Eventitic" ~> 3.0
+github "hironytic/Eventitic" ~> 4.0
 ```
 
 ### Swift Package Manager
@@ -96,7 +96,7 @@ import PackageDescription
 let package = Package(
     name: "Hello",
     dependencies: [
-        .package(url: "https://github.com/hironytic/Eventitic.git", from: "3.0.0"),
+        .package(url: "https://github.com/hironytic/Eventitic.git", from: "4.0.0"),
     ],
     ...
 )
