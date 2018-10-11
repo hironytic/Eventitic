@@ -188,4 +188,13 @@ class EventiticTests: XCTestCase {
         XCTAssertEqual(values1[0], "#1: foo")
         XCTAssertEqual(values2[0], "#2: foo")
     }
+
+    static var allTests = [
+        ("testShouldListenAFiredEvent", testShouldListenAFiredEvent),
+        ("testShouldListenTwoFiredEvents", testShouldListenTwoFiredEvents),
+        ("testShouldDispatchToTwoListeners", testShouldDispatchToTwoListeners),
+        ("testShouldUnlisten", testShouldUnlisten),
+        ("testShouldUnlistenEvenInHandler", testShouldUnlistenEvenInHandler),
+        ("testShouldMakeAllListenersUnlistened", testShouldMakeAllListenersUnlistened),
+    ]
 }

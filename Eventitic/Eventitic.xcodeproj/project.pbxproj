@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		50AF3AF71CC6FC3C0042F81C /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50AF3AFE1CC6FC3C0042F81C /* Eventitic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AF3AF31CC6FC3C0042F81C /* Eventitic.framework */; };
-		50AF3B031CC6FC3C0042F81C /* EventiticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B021CC6FC3C0042F81C /* EventiticTests.swift */; };
 		50AF3B141CC6FD890042F81C /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B101CC6FD890042F81C /* EventSource.swift */; };
 		50AF3B151CC6FD890042F81C /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B111CC6FD890042F81C /* Listener.swift */; };
 		50AF3B161CC6FD890042F81C /* ListenerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF3B121CC6FD890042F81C /* ListenerStore.swift */; };
@@ -25,6 +24,7 @@
 		50E10B731CC7921E002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50E10B811CC79367002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50E10B8F1CC794C6002C37E3 /* Eventitic.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF3AF61CC6FC3C0042F81C /* Eventitic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F4CE02216F5CB700A3B336 /* EventiticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4CDFF216F5CB700A3B336 /* EventiticTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +43,13 @@
 		50AF3AF61CC6FC3C0042F81C /* Eventitic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Eventitic.h; sourceTree = "<group>"; };
 		50AF3AF81CC6FC3C0042F81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AF3AFD1CC6FC3C0042F81C /* EventiticTests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventiticTests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50AF3B021CC6FC3C0042F81C /* EventiticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventiticTests.swift; sourceTree = "<group>"; };
-		50AF3B041CC6FC3C0042F81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AF3B101CC6FD890042F81C /* EventSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSource.swift; sourceTree = "<group>"; };
 		50AF3B111CC6FD890042F81C /* Listener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
 		50AF3B121CC6FD890042F81C /* ListenerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenerStore.swift; sourceTree = "<group>"; };
 		50E10B791CC79303002C37E3 /* Eventitic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eventitic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E10B871CC794AC002C37E3 /* Eventitic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eventitic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F4CDFD216F5CB700A3B336 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F4CDFF216F5CB700A3B336 /* EventiticTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventiticTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			children = (
 				50AF3AF51CC6FC3C0042F81C /* Eventitic */,
 				50AF3B0E1CC6FD890042F81C /* Sources */,
-				50AF3B011CC6FC3C0042F81C /* EventiticTests */,
+				50F4CDFB216F5C5400A3B336 /* Tests */,
 				50AF3AF41CC6FC3C0042F81C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,24 +123,41 @@
 			path = Eventitic;
 			sourceTree = "<group>";
 		};
-		50AF3B011CC6FC3C0042F81C /* EventiticTests */ = {
+		50AF3B0E1CC6FD890042F81C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				50AF3B021CC6FC3C0042F81C /* EventiticTests.swift */,
-				50AF3B041CC6FC3C0042F81C /* Info.plist */,
+				50F4CDFA216F5A6700A3B336 /* Eventitic */,
 			);
-			path = EventiticTests;
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
-		50AF3B0E1CC6FD890042F81C /* Sources */ = {
+		50F4CDFA216F5A6700A3B336 /* Eventitic */ = {
 			isa = PBXGroup;
 			children = (
 				50AF3B101CC6FD890042F81C /* EventSource.swift */,
 				50AF3B111CC6FD890042F81C /* Listener.swift */,
 				50AF3B121CC6FD890042F81C /* ListenerStore.swift */,
 			);
-			name = Sources;
-			path = ../Sources;
+			path = Eventitic;
+			sourceTree = "<group>";
+		};
+		50F4CDFB216F5C5400A3B336 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50F4CDFC216F5C8100A3B336 /* EventiticTests */,
+			);
+			name = Tests;
+			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		50F4CDFC216F5C8100A3B336 /* EventiticTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F4CDFF216F5CB700A3B336 /* EventiticTests.swift */,
+				50F4CDFD216F5CB700A3B336 /* Info.plist */,
+			);
+			path = EventiticTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AF3B031CC6FC3C0042F81C /* EventiticTests.swift in Sources */,
+				50F4CE02216F5CB700A3B336 /* EventiticTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +631,7 @@
 		50AF3B0B1CC6FC3C0042F81C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = EventiticTests/Info.plist;
+				INFOPLIST_FILE = ../Tests/EventiticTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.EventiticTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -624,7 +641,7 @@
 		50AF3B0C1CC6FC3C0042F81C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = EventiticTests/Info.plist;
+				INFOPLIST_FILE = ../Tests/EventiticTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.EventiticTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
