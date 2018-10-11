@@ -2,7 +2,7 @@
 // EventiticTests.swift
 // EventiticTests
 //
-// Copyright (c) 2016,2017 Hironori Ichimiya <hiron@hironytic.com>
+// Copyright (c) 2016-2018 Hironori Ichimiya <hiron@hironytic.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -188,4 +188,13 @@ class EventiticTests: XCTestCase {
         XCTAssertEqual(values1[0], "#1: foo")
         XCTAssertEqual(values2[0], "#2: foo")
     }
+
+    static var allTests = [
+        ("testShouldListenAFiredEvent", testShouldListenAFiredEvent),
+        ("testShouldListenTwoFiredEvents", testShouldListenTwoFiredEvents),
+        ("testShouldDispatchToTwoListeners", testShouldDispatchToTwoListeners),
+        ("testShouldUnlisten", testShouldUnlisten),
+        ("testShouldUnlistenEvenInHandler", testShouldUnlistenEvenInHandler),
+        ("testShouldMakeAllListenersUnlistened", testShouldMakeAllListenersUnlistened),
+    ]
 }
