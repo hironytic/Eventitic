@@ -321,11 +321,11 @@
 			};
 			buildConfigurationList = 50AF3AED1CC6FC3C0042F81C /* Build configuration list for PBXProject "Eventitic" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 50AF3AE91CC6FC3C0042F81C;
 			productRefGroup = 50AF3AF41CC6FC3C0042F81C /* Products */;
