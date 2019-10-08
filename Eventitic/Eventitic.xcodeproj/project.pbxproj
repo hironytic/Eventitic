@@ -452,6 +452,7 @@
 				INFOPLIST_FILE = Eventitic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 5.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = macosx;
@@ -473,6 +474,7 @@
 				INFOPLIST_FILE = Eventitic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 5.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = macosx;
@@ -610,6 +612,7 @@
 				INFOPLIST_FILE = Eventitic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 5.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SKIP_INSTALL = YES;
@@ -628,6 +631,7 @@
 				INFOPLIST_FILE = Eventitic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 5.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SKIP_INSTALL = YES;
@@ -669,6 +673,7 @@
 				INFOPLIST_FILE = Eventitic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 5.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = watchos;
@@ -691,6 +696,7 @@
 				INFOPLIST_FILE = Eventitic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 5.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = watchos;
@@ -712,6 +718,7 @@
 				INFOPLIST_FILE = Eventitic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 5.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = appletvos;
@@ -733,6 +740,7 @@
 				INFOPLIST_FILE = Eventitic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 5.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hironytic.Eventitic;
 				PRODUCT_NAME = Eventitic;
 				SDKROOT = appletvos;
