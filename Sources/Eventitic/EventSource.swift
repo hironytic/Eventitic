@@ -60,7 +60,7 @@ public class EventSource<T> {
         if let pool = unlistenPools.last {
             pool.listeners.append(listener)
         } else {
-            if let index = listeners.index(of: listener) {
+            if let index = listeners.firstIndex(of: listener) {
                 listeners.remove(at: index)
             }
         }
